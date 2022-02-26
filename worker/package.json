@@ -1,0 +1,15 @@
+{
+  "name": "worker",
+  "version": "0.0.0",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^1.0.0"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "test": "node main.js"
+  },
+  "gypfile": true
+}
